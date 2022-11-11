@@ -1,0 +1,778 @@
+@font-face {
+  font-family: "BebasNeueRegular";
+  src: url("./fonts/BebasNeue/BebasNeue\ Regular.otf");
+}
+
+@font-face {
+  font-family: "BebasNeueBold";
+  src: url("./fonts/BebasNeue/BebasNeue\ Bold.otf");
+}
+
+@font-face {
+  font-family: "BebasNeueBook";
+  src: url(./fonts/BebasNeue/BebasNeue\ Book.otf);
+}
+
+@font-face {
+  font-family: "DinotRegular";
+  src: url("./fonts/Dinot/DINOT-Regular.otf");
+}
+
+@font-face {
+  font-family: "DinotBold";
+  src: url("./fonts/Dinot/DINOT-Bold.otf");
+}
+
+@font-face {
+  font-family: "SourceSansProRegular";
+  src: url("./fonts/SourceSansPro/SourceSansPro-Regular.ttf");
+}
+
+/**/
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "BebasNeueRegular";
+}
+
+body {
+  background-color: #121212;
+  color: white;
+}
+
+/**/
+
+.header {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  background-color: black;
+  height: 73px;
+  align-items: center;
+  z-index: 1;
+}
+
+.blank {
+  background-color: black;
+  width: 152px;
+}
+
+.header #headerImg {
+  width: 150px;
+  height: 48px;
+  margin-right: 200px;
+}
+
+.header .navi {
+  display: flex;
+}
+
+.header .navi li {
+  padding: 22px 0px 22px 36px;
+  font-size: 17px;
+}
+
+.header .navi li:hover {
+  color: #fdb813;
+}
+
+/**/
+
+#img01 {
+  width: 100%;
+  margin-top: 73px;
+}
+
+#img01Text {
+  position: absolute;
+  top: 145px;
+  color: black;
+  padding-left: 152px;
+}
+
+#img01Text01 {
+  font-family: "BebasNeueBold";
+  font-size: 55px;
+}
+
+#img01Text02 {
+  font-family: "DinotRegular";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#img01Text03Container {
+  padding-top: 30px;
+}
+
+#img01Text03_01 {
+  width: 620px;
+  height: 48px;
+  font-family: normal;
+  border: none;
+}
+
+#img01Text03_01::placeholder {
+  color: #a3a3a3;
+}
+
+#img01Text03_02 {
+  width: 55px;
+  height: 49px;
+  background-color: #fdb813;
+  border: none;
+  font-family: normal;
+  position: relative;
+  right: 2px;
+}
+
+#img01Text03_02:hover {
+  background-color: black;
+  color: white;
+}
+
+/**/
+
+.believe {
+  padding-left: 152px;
+  padding-right: 152px;
+  padding-top: 30px;
+}
+
+#believe01 {
+  font-size: 35px;
+  font-family: "BebasNeueBold";
+}
+
+#believe02_01 {
+  font-size: 18px;
+  font-family: "SourceSansProRegular";
+  padding-top: 7px;
+  line-height: 28px;
+}
+
+#believe02_02 {
+  font-size: 18px;
+  font-family: "SourceSansProRegular";
+  padding-top: 17px;
+  line-height: 28px;
+}
+
+/**/
+
+.more1 {
+  display: flex;
+  padding-left: 152px;
+  padding-right: 152px;
+  padding-top: 69px;
+}
+
+.more1 .left {
+  width: 610px;
+  height: 392px;
+  background-color: white;
+  color: black;
+}
+
+.more1 .right {
+  width: 610px;
+  height: 392px;
+  background-color: white;
+  color: black;
+}
+
+#img02 {
+  width: 610px;
+  height: 392px;
+}
+
+#more1Right01 {
+  font-size: 24px;
+  font-family: "BebasNeueBold";
+  padding-top: 24px;
+  padding-left: 32px;
+}
+
+#more1Right02 {
+  font-size: 16px;
+  font-family: "SourceSansProRegular";
+  padding-left: 32px;
+  padding-top: 25px;
+  padding-right: 32px;
+}
+
+#more1Right03 {
+  font-size: 16px;
+  font-family: "SourceSansProRegular";
+  padding-left: 32px;
+  padding-top: 10px;
+  padding-right: 32px;
+}
+
+#more1ReadMoreContainer {
+  background-color: white;
+  padding-left: 32px;
+  padding-top: 8px;
+}
+
+#more1ReadMore {
+  background-color: black;
+  color: white;
+  width: 104px;
+  height: 60px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "SourceSansProRegular";
+}
+
+#more1ReadMore:hover {
+  background-color: #ffc54e;
+  color: black;
+}
+
+/**/
+
+.more2 {
+  display: flex;
+  padding-left: 152px;
+  padding-right: 152px;
+  padding-top: 24px;
+}
+
+.more2 .left {
+  width: 610px;
+  height: 392px;
+  background-color: white;
+  color: black;
+}
+
+.more2 .right {
+  width: 610px;
+  height: 392px;
+  background-color: white;
+  color: black;
+}
+
+#video {
+  width: 610px;
+  height: 392px;
+  width: 100%;
+}
+
+#more2Left01 {
+  font-size: 24px;
+  font-family: "BebasNeueBold";
+  padding-top: 24px;
+  padding-left: 32px;
+}
+
+#more2Left02 {
+  font-size: 16px;
+  font-family: "SourceSansProRegular";
+  padding-left: 32px;
+  padding-top: 25px;
+  padding-right: 32px;
+}
+
+#more2Left03 {
+  font-size: 16px;
+  font-family: "SourceSansProRegular";
+  padding-left: 32px;
+  padding-top: 10px;
+  padding-right: 32px;
+}
+
+#more2ReadMoreContainer {
+  background-color: white;
+  padding-left: 32px;
+  padding-top: 8px;
+}
+
+#more2ReadMore {
+  background-color: black;
+  color: white;
+  width: 104px;
+  height: 60px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "SourceSansProRegular";
+}
+
+#more2ReadMore:hover {
+  background-color: #ffc54e;
+  color: black;
+}
+
+/**/
+
+.day {
+  padding-left: 152px;
+  padding-right: 152px;
+  padding-top: 55px;
+}
+
+#day01 {
+  font-size: 35px;
+  font-family: "BebasNeueBold";
+}
+
+#day02 {
+  font-size: 18px;
+  font-family: "SourceSansProRegular";
+  padding-top: 7px;
+  line-height: 28px;
+}
+
+/**/
+
+.photoEightContainer {
+  padding-top: 55px;
+}
+
+.photoEight {
+  display: flex;
+  padding-left: 140px;
+  padding-right: 164px;
+}
+
+.photoEight img {
+  width: 309px;
+  height: 309px;
+  padding: 1px;
+}
+
+/**/
+
+.findYour {
+  padding-left: 152px;
+  padding-right: 152px;
+  padding-top: 54px;
+  padding-bottom: 50px;
+}
+
+.imgFindYour {
+  width: 1220px;
+  height: 300px;
+}
+
+#imgFindYourTextContainer {
+  position: absolute;
+  top: 2770px;
+  color: black;
+  padding-left: 220px;
+}
+
+#imgFindYourText01 {
+  font-family: "BebasNeueBold";
+  font-size: 31px;
+}
+
+#imgFindYourText02 {
+  font-family: "SourceSansProRegular";
+  font-size: 20px;
+  padding-top: 13px;
+}
+
+#exploreContainer {
+  padding-top: 15px;
+}
+
+#explore {
+  background-color: black;
+  color: white;
+  width: 92px;
+  height: 52px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "DinotRegular";
+}
+
+#explore:hover {
+  color: #fdb813;
+}
+
+/**/
+
+.career {
+  display: flex;
+  background-color: white;
+  color: black;
+  padding-left: 152px;
+  padding-right: 152px;
+  padding-top: 55px;
+  padding-bottom: 80px;
+}
+
+.careerButton1 {
+  border: 2px solid black;
+  margin-left: 130px;
+}
+
+.careerButtonContent1 {
+  font-size: 16px;
+  font-family: "DinotBold";
+  width: 253px;
+  height: 24px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 8px 40px 8px 40px;
+  letter-spacing: 2px;
+}
+
+.careerButton2 {
+  border: 2px solid black;
+  margin-left: 314px;
+}
+
+.careerButtonContent2 {
+  font-size: 16px;
+  font-family: "DinotBold";
+  width: 195px;
+  height: 24px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 8px 40px 8px 40px;
+  letter-spacing: 2px;
+}
+
+#careerLine {
+  display: block;
+  content: "";
+  width: 45px;
+  height: 0.5px;
+  background: black;
+  position: relative;
+  top: 20px;
+  right: 470px;
+  transform: rotate(270deg);
+}
+
+/**/
+
+.recruitment {
+  display: flex;
+  background-color: #f8f8f8;
+  color: black;
+  padding-left: 152px;
+  padding-right: 152px;
+  height: 78px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#recruitmentText {
+  color: #4f4f4f;
+  font-size: 16px;
+  font-family: "DinotRegular";
+  line-height: 24px;
+  padding-left: 42px;
+  position: relative;
+  top: 15px;
+}
+
+#recruitmentTextUnderline {
+  color: #4f4f4f;
+  font-size: 16px;
+  font-family: "DinotRegular";
+  line-height: 24px;
+  text-decoration: underline;
+}
+
+#info {
+  position: relative;
+  bottom: 30px;
+  right: 10px;
+  color: #4f4f4f;
+}
+
+/**/
+
+.semiFooter1 {
+  background-color: #121212;
+  color: white;
+  padding-left: 152px;
+  padding-right: 152px;
+  padding-bottom: 104px;
+}
+
+.semiFooterTitle {
+  display: flex;
+}
+
+#semiFooter1Title1_1 {
+  font-size: 24px;
+  font-family: "BebasNeueRegular";
+  letter-spacing: 5px;
+  text-align: left;
+  color: #808285;
+  padding-top: 45px;
+}
+
+#semiFooter1Title1_2 {
+  display: block;
+  content: "";
+  width: 854px;
+  height: 1px;
+  background: #808285;
+  position: relative;
+  top: 58px;
+  left: 10px;
+}
+
+#semiFooter1Content1 {
+  font-size: 16px;
+  font-family: "DinotRegular";
+  line-height: 28px;
+  padding-top: 20px;
+}
+
+#spanOrangeUnderline {
+  font-size: 16px;
+  font-family: "SourceSansProRegular";
+  line-height: 28px;
+  text-decoration: underline;
+  color: #ffc54e;
+}
+
+#semiFooter1Title2_1 {
+  font-size: 24px;
+  font-family: "BebasNeueRegular";
+  letter-spacing: 5px;
+  color: #808285;
+  padding-top: 55px;
+}
+
+#semiFooter1Title2_2 {
+  display: block;
+  content: "";
+  text-align: left;
+  width: 915px;
+  height: 1px;
+  background: #808285;
+  position: relative;
+  top: 68px;
+  left: 10px;
+}
+
+#semiFooter1Content2 {
+  font-size: 16px;
+  font-family: "DinotRegular";
+  line-height: 28px;
+  padding-top: 20px;
+}
+
+/**/
+
+.semiFooter2 {
+  background-color: black;
+  color: white;
+  padding-left: 152px;
+  padding-right: 152px;
+  padding-bottom: 100px;
+}
+
+.semiFooter2_1 {
+  display: flex;
+  height: 118px;
+}
+
+#semiFooter2_1Img {
+  width: 250px;
+  height: 80px;
+  position: relative;
+  right: 17px;
+  top: 10px;
+  padding-right: 371px;
+}
+
+#semiFooter2_1List {
+  position: relative;
+  top: 13px;
+  right: 10px;
+}
+
+#semiFooter2_1List li {
+  margin-left: 7px;
+}
+
+#semiFooter2_1Line {
+  display: inline-block;
+  content: "";
+  text-align: left;
+  width: 40px;
+  height: 2px;
+  background: #a3a3a3;
+  position: relative;
+  bottom: 90px;
+  left: 585px;
+}
+
+.semiFooter2 li {
+  padding: 0px 0px 0px 25px;
+  float: left;
+  font-size: 18px;
+  font-family: "BebasNeueBook";
+  letter-spacing: 2px;
+  position: relative;
+  top: 20px;
+}
+
+.semiFooter2_2 {
+  display: flex;
+}
+
+#visit {
+  font-size: 26px;
+  font-family: "BebasNeueRegular";
+  color: #ffc54e;
+  letter-spacing: 5px;
+  position: relative;
+  right: 7px;
+  top: 5px;
+}
+
+#connect {
+  font-size: 26px;
+  font-family: "BebasNeueRegular";
+  color: #ffc54e;
+  letter-spacing: 5px;
+  position: relative;
+  left: 898px;
+}
+
+.semiFooter2_3 {
+  display: flex;
+}
+
+#semiFooter2_3Text {
+  font-size: 16px;
+  font-family: "BebasNeueBold";
+  letter-spacing: 1px;
+  position: relative;
+  right: 7px;
+  top: 13px;
+}
+
+#semiFooter2_3ButtonContainer {
+  display: flex;
+  position: relative;
+  top: 13px;
+  left: 765px;
+}
+
+#semiFooter2_3ButtonContainer button {
+  color: white;
+  background-color: black;
+  border-color: #ffc54e;
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+}
+
+#semiFooter2_3ButtonContainer button:hover {
+  color: #ffc54e;
+}
+
+.semiFooter2_4 {
+  display: flex;
+}
+
+#getInTouch {
+  font-size: 26px;
+  font-family: "BebasNeueRegular";
+  color: #ffc54e;
+  letter-spacing: 5px;
+  position: relative;
+  right: 7px;
+  top: 52px;
+}
+
+.semiFooter2_5 {
+  display: flex;
+  font-size: 16px;
+  font-family: "BebasNeueBold";
+  letter-spacing: 1px;
+  position: relative;
+  right: 7px;
+  top: 63px;
+}
+
+#scrollup {
+  font-size: 18px;
+  font-family: "BebasNeueBook";
+  letter-spacing: 2px;
+  transform: rotate(270deg);
+  position: relative;
+  bottom: 550px;
+  right: 720px;
+}
+
+#scrollupLine {
+  display: block;
+  content: "";
+  width: 35px;
+  height: 1px;
+  background: #ffc54e;
+  position: relative;
+  bottom: 40px;
+  right: 130px;
+  transform: rotate(270deg);
+}
+
+/**/
+
+.footer {
+  display: flex;
+  background-color: #121212;
+  padding-left: 152px;
+  padding-right: 152px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#footerTextContainer {
+  padding-left: 10px;
+}
+
+#footerText1 {
+  color: #949494;
+  font-size: 12px;
+  font-family: "DinotRegular";
+}
+
+#footerText2 {
+  color: #949494;
+  font-size: 12px;
+  font-family: "DinotRegular";
+}
+
+#footerImg1Container {
+  padding-left: 171px;
+}
+
+#footerImg2Container {
+  padding-left: 15px;
+}
+
+#footerImg1 {
+  width: 63px;
+  height: 100px;
+}
+
+#footerImg2 {
+  width: 63px;
+  height: 100px;
+}
